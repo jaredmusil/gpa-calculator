@@ -1,6 +1,6 @@
-body{
-	width:600px;
-	margin:0 auto;
+body {
+	width: 600px;
+	margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #181818;
@@ -17,18 +17,35 @@ hr {
 hr.medium {
 	border-width: 5px 0 0;
 }
-a, a:visited{
+a, a:visited {
 	color: #333;
 	text-decoration: none;
 	outline: 0;
 }
-input[type="text"], input[type="password"], input[type="email"], textarea, select{
-	width: 150px;
+input[type="text"], input[type="password"], input[type="email"], textarea, select {
+	width: 250px;
 }
-input[type="text"].small, input[type="password"].small, input[type="email"].small, textarea.small, select.small{
-	width: 90px;
+input[type="text"].small, input[type="password"].small, input[type="email"].small, textarea.small, select.small {
+	width: 100px;
 }
-#overall-gpa{ font-weight: bold; }
-.red{ border: 1px solid red; }
-.green{ border: 1px solid green; }
-.message{ border: 1px solid #ccc; background-color: #eee; border-radius: 5px;}
+.red {
+	border: 1px solid red;
+	padding: 1px;
+}
+.green {
+	border: 1px solid green;
+	padding: 1px;
+}
+.message {
+	border: 1px solid #ccc; background-color: #eee; border-radius: 5px;
+}
+#overall-gpa {
+	font-weight: bold;
+}
+#gpa-table {
+	width: 100%
+}
+
+#gpa-table td {
+	padding: 1px;
+}

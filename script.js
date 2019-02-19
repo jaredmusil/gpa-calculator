@@ -97,7 +97,7 @@ $(document).ready(function() {
 		// Existing GPA?
 		if (trueIfNumber(newGradePoints)) {
 			$('#current-gpa').removeClass('red');
-			console.log(currentGradePoints, currentHours, newGradePoints);
+			console.log('Current (GPA:', currentGradePoints, ' Hrs:', currentHours, ') New (GPA:', newGradePoints, ' Hrs:', newHours, ')');
 			$('#total-grade-points').val(((currentGradePoints * currentHours) + newGradePoints).toFixed(2));
 		} else{
 			$('#current-gpa').addClass('red');
